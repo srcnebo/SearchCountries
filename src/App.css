@@ -6,10 +6,13 @@ body {
   font-family: "Exo", sans-serif;
   margin: 0;
   padding: 0;
+  background: url("./assets/earth2.jpg") fixed no-repeat;
+  color: #e8f6ff;
 }
 
 h2 {
   text-align: center;
+  color: aliceblue;
 }
 
 .container {
@@ -36,7 +39,7 @@ input[type="radio"] {
   color: #0099ff;
   text-align: center;
   border-radius: 5px;
-  padding: 1rem 0 1rem 0;
+  padding: 10px 0 10px 0;
 }
 .radio label:hover {
   background-color: #0099ffcc;
@@ -76,15 +79,22 @@ input[type="radio"]:checked + label {
   padding: 0.5rem;
   width: 100%;
 }
+
 .div-country {
   padding: 1rem;
   text-align: center;
+  color: rgb(228, 228, 228);
 }
 .div-country:nth-child(odd) {
-  background: #0099ff44;
+  background: #1a1a1a8d;
 }
 .div-country:nth-child(even) {
-  background: #0099ff11;
+  background: #1a1a1a8d;
+}
+.countryContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 /* Header text and number of countries */

@@ -3,7 +3,7 @@ import { countryStarts, countryInclude } from "./Methods";
 
 const Main = props => {
   return (
-    <div>
+    <div className="countryContainer">
       {props.start ? countryStarts(props.typing) : countryInclude(props.typing)}
     </div>
   );
