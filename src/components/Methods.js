@@ -33,7 +33,7 @@ export function countryInclude(typing) {
     return country.includes(typing);
   }).map(i => {
     return (
-      <div key={i} className="div-country">
+      <div key={i} className="div-country container">
         {i}
       </div>
     );
